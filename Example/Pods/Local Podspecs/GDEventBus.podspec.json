@@ -1,0 +1,27 @@
+{
+  "name": "GDEventBus",
+  "version": "0.1.0",
+  "summary": "A short description of GDEventBus.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Objc/GDEventBus",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Objc": "objc@gaodun.com"
+  },
+  "source": {
+    "git": "https://github.com/Objc/GDEventBus.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "GDEventBus/Classes/**/*",
+  "dependencies": {
+    "GDExtension": [
+
+    ]
+  }
+}

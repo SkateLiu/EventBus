@@ -1,0 +1,24 @@
+{
+  "name": "GDExtension",
+  "version": "0.5.9",
+  "summary": "http://gitlab.gaodun.com/iOSLibs/GDExtension.git",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "http://gitlab.gaodun.com/iOSLibs/GDExtension",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Golden": "www.gaodun.com"
+  },
+  "source": {
+    "git": "http://gitlab.gaodun.com/iOSLibs/GDExtension.git",
+    "tag": "0.5.9"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "swift_versions": "5.0.0",
+  "source_files": "GDExtension/Classes/**/*",
+  "swift_version": "5.0.0"
+}

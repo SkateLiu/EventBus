@@ -1,0 +1,14 @@
+use_frameworks!
+source 'http://gitlab.gaodun.com/iOSLibs/Specs.git'
+install! 'cocoapods', :preserve_pod_file_structure => true
+target 'GDEventBus_Example' do
+  pod 'GDEventBus', :path => '../'
+
+
+  target 'GDEventBus_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase' , '~> 2.1.4'
+    pod 'GDExtension', :path => '../../GDExtension'
+  end
+end

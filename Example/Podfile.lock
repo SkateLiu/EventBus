@@ -1,0 +1,33 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - GDEventBus (0.1.0):
+    - GDExtension
+  - GDExtension (0.5.9)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase (~> 2.1.4)
+  - GDEventBus (from `../`)
+  - GDExtension (from `../../GDExtension`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  GDEventBus:
+    :path: "../"
+  GDExtension:
+    :path: "../../GDExtension"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  GDEventBus: 14278fb56ccfdee7d81e1e650fb93a3e9a16bd43
+  GDExtension: 2a50aa3752418dd0eb008cf560c5853289b5adb9
+
+PODFILE CHECKSUM: 8bb66e89b990ba43e87440baba40ffb2dadc8b1c
+
+COCOAPODS: 1.7.2

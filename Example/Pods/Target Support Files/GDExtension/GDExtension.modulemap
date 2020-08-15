@@ -1,0 +1,6 @@
+framework module GDExtension {
+  umbrella header "GDExtension-umbrella.h"
+
+  export *
+  module * { export * }
+}
